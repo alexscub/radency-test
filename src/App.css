@@ -1,0 +1,57 @@
+.App {
+  text-align: center;
+}
+.File {
+  width: 0.1px;
+  height: 0.1px;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  z-index: -1;
+}
+
+.customFile {
+  margin: 50px auto;
+  max-width: 500px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 4px;
+  border: 1px solid #b2b9c0;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.filename {
+  padding: 8px 12px;
+  border-right: 1px solid #b2b9c0;
+  width: 100%;
+  color: #b2b9c0;
+  width: 100%;
+  color: #404040;
+}
+
+.browseButton {
+  padding: 8px 12px;
+  background-color: #f8f7f5;
+}
+
+.sticky {
+  position: sticky;
+  top: 0;
+  background: #fff;
+}
+
+th {
+  padding-top: 20px!important;
+  padding-bottom: 20px!important;
+}
+
+.error {
+  max-width: 500px;
+  width: 100%;
+  background: #f79494;
+  margin: 0 auto;
+  border-radius: 4px;
+  border: 1px solid #b2b9c0;
+  padding: 12px;
+}
